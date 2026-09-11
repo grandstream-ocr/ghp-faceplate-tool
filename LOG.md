@@ -11,12 +11,13 @@
 - 5.优化 Logo PMS 必填项提示，在不改变现有布局的情况下强化必填标识和校验提示。
 - 6.镜片定制网站页面增加版权和版本标识
 - 7.增加版本管理文件 `VERSION.md`
-- 7.相关Bug修复：
+- 8.相关Bug修复：
   - [GHP6XX-1615](https://internal.jira.grandstream.com/browse/GHP6XX-1615)  GHP6XX_FaceplateTool_20260901:Switching pages after editing and saving resulted in lost edits
   - [GHP6XX-1620](https://internal.jira.grandstream.com/browse/GHP6XX-1620)  GHP6XX_FaceplateTool_20260902:Red color still exists when generating black and white laser engraving images
   - [GHP6XX-1627](https://internal.jira.grandstream.com/browse/GHP6XX-1627)  GHP6XX_FaceplateTool_20260901:The page was reset after generating the laser engraving image
   - [GHP6XX-1634](https://internal.jira.grandstream.com/browse/GHP6XX-1634)  GHP6XX_FaceplateTool_20260902:Suggest adding a prompt for incorrect room numbers
   - [GHP6XX-1635](https://internal.jira.grandstream.com/browse/GHP6XX-1635)  GHP6XX_FaceplateTool_20260902:The laser engraving generated will continue to load after inserting a Room control
+- 9.设置网站标题为 GHP faceplate tool
 
 ## [2026-09-07] 相关修改
 
