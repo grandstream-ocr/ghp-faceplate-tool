@@ -2,6 +2,22 @@
 
 本文件记录项目每次提交的主要改动。
 
+## [2026-09-11] 相关修改
+
+- 1.修复卡纸模式下手动输入房间号后生成 PDF 时，错误提示房间号异常的问题。
+- 2.修复卡纸模式刷新后，房间号工具栏错误显示为丝印模式样式的问题；根据当前模式正确初始化工具栏，避免默认创建丝印模式样式。
+- 3.处理导入客户配置并填写房间号后，PDF 仅生成规格页、镭雕图片未按房间号生成的问题。跨模式导入配置文件时，自动切换至配置文件对应模式。
+- 4.处理删除房间号后数量同步清空、再次生成 PDF 提示必填项的问题。调整 updateQuantity()，仅在房间号非空且格式合法时更新数量，否则保留原值。
+- 5.优化 Logo PMS 必填项提示，在不改变现有布局的情况下强化必填标识和校验提示。
+- 6.镜片定制网站页面增加版权和版本标识
+- 7.增加版本管理文件 `VERSION.md`
+- 7.相关Bug修复：
+  - [GHP6XX-1615](https://internal.jira.grandstream.com/browse/GHP6XX-1615)  GHP6XX_FaceplateTool_20260901:Switching pages after editing and saving resulted in lost edits
+  - [GHP6XX-1620](https://internal.jira.grandstream.com/browse/GHP6XX-1620)  GHP6XX_FaceplateTool_20260902:Red color still exists when generating black and white laser engraving images
+  - [GHP6XX-1627](https://internal.jira.grandstream.com/browse/GHP6XX-1627)  GHP6XX_FaceplateTool_20260901:The page was reset after generating the laser engraving image
+  - [GHP6XX-1634](https://internal.jira.grandstream.com/browse/GHP6XX-1634)  GHP6XX_FaceplateTool_20260902:Suggest adding a prompt for incorrect room numbers
+  - [GHP6XX-1635](https://internal.jira.grandstream.com/browse/GHP6XX-1635)  GHP6XX_FaceplateTool_20260902:The laser engraving generated will continue to load after inserting a Room control
+
 ## [2026-09-07] 相关修改
 
 - 1.去除无用的css和js文件。
@@ -15,7 +31,6 @@
 - 4.丝印定制模式下导出卡纸模式配置文件，无法生成PDF；切换图标颜色后，导出的镭雕图标颜色不匹配问题。
 - 5.[GHP6XX-1618] GHP6XXPro_FaceplateTool_20260902:PDF preview page cannot pop up normally
 - 6.修正切换模型后图标被保留问题：按照“切换到目标型号即恢复该型号默认配置”规则处理。
-
 
 
 ## [2026-09-01] 初始化仓库
