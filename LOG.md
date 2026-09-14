@@ -2,6 +2,11 @@
 
 本文件记录项目每次提交的主要改动。
 
+## [2026-09-14] 相关修改
+
+- 1.修复[GHP6XX-1688] GHP6XX_FaceplateTool_1.0.1.1:The number of 61x pages is always reset
+- 2.设置网站标题为 GHP Faceplate Tool
+
 ## [2026-09-11] 相关修改
 
 - 1.修复卡纸模式下手动输入房间号后生成 PDF 时，错误提示房间号异常的问题。
