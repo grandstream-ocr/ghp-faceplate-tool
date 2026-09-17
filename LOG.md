@@ -2,6 +2,13 @@
 
 本文件记录项目每次提交的主要改动。
 
+## [2026-09-17] 相关修改
+
+- 1.Fixed [GHP6XX-1684] GHP6XX_FaceplateTool_1.0.1.1:The icon text display area needs to avoid overlapping
+- 2.Fixed [GHP6XX-1686] GHP6XX_FaceplateTool_1.0.1.1:The color of the room and number should be the same
+- 3.Fixed [GHP6XX-1687] GHP6XX_FaceplateTool_1.0.1.1:The room control displays an exception in the preview image
+- 4.Fixed [GHP6XX-1688] GHP6XX_FaceplateTool_1.0.1.1:The number of 61x pages is always reset
+
 ## [2026-09-14] 相关修改
 
 - 1.修复[GHP6XX-1688] GHP6XX_FaceplateTool_1.0.1.1:The number of 61x pages is always reset
