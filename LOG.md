@@ -2,6 +2,13 @@
 
 本文件记录项目每次提交的主要改动。
 
+## [2026-10-12] 相关修改
+
+- Fixed [UCE-90]GHP6XX_FaceplateTool_1.0.1.1:When selecting the split type for Cardstock Customization, it actually does not display as split
+- Fixed [UCE-93]GHP6XX_FaceplateTool_1.0.1.1:The cardboard was not generated according to the maximum quantity limit
+- Fixed [UCE-91] GHP6XX_FaceplateTool_1.0.1.1:The preview image of Firefox browser is too small
+
+
 ## [2026-09-17] 相关修改
 
 - 1.Fixed [GHP6XX-1684] GHP6XX_FaceplateTool_1.0.1.1:The icon text display area needs to avoid overlapping
