@@ -2,6 +2,24 @@
 
 本文件记录项目每次提交的主要改动。
 
+## [2026-10-13] 相关修改
+
+- 增加PDF预览页调试信息
+- 修复多语言文件语法错误和翻译不当问题
+- Update app version as 1.0.1.3
+- [UCE-134](https://internal.jira.grandstream.com/browse/UCE-134)  GHP6XX_FaceplateTool_1.0.1.2:The type should not be switched when only switching models
+- [UCE-136](https://internal.jira.grandstream.com/browse/UCE-136)  GHP6XX_FaceplateTool_1.0.1.2:The preview background color of the 61x generated PDF should not change
+- [UCE-137](https://internal.jira.grandstream.com/browse/UCE-137)  GHP6XX_FaceplateTool_1.0.1.2:Special note: incomplete display in PDF print preview
+- [UCE-138](https://internal.jira.grandstream.com/browse/UCE-138)  GHP6XX_FaceplateTool_1.0.1.2:It is recommended to optimize the response time after clicking on the tutorial videos.
+- [UCE-139](https://internal.jira.grandstream.com/browse/UCE-139)  GHP6XX_FaceplateTool_1.0.1.2:The color of the diagram on the preview page is inconsistent with the one selected on the print prompt page
+- [UCE-140](https://internal.jira.grandstream.com/browse/UCE-140)  GHP6XX_FaceplateTool_1.0.1.2:When the image is large, it can be uploaded but cannot generate a laser-engraved image
+- [UCE-141](https://internal.jira.grandstream.com/browse/UCE-141)  GHP6XX_FaceplateTool_1.0.1.2:Inconsistent display of logo color after import and export operations
+- [UCE-143](https://internal.jira.grandstream.com/browse/UCE-143)  GHP6XX_FaceplateTool_1.0.1.2:Suggest prompt after exporting or downloading is complete
+- [UCE-144](https://internal.jira.grandstream.com/browse/UCE-144)  GHP6XX_FaceplateTool_1.0.1.2:The color description on the print prompt page will be displayed in separate lines
+- [UCE-145](https://internal.jira.grandstream.com/browse/UCE-145)  GHP6XX_FaceplateTool_1.0.1.2: Suggest the initial cursor of the Room control should be positioned on the default line of Room
+- [UCE-148](https://internal.jira.grandstream.com/browse/UCE-148)  GHP6XX_FaceplateTool_1.0.1.2:61x should not provide paper size selection
+- [UCE-152](https://internal.jira.grandstream.com/browse/UCE-152)  GHP6XX_FaceplateTool_1.0.1.2:Picture didn't show some letter after modify address.
+
 ## [2026-10-12] 相关修改
 
 - Fixed [UCE-90]GHP6XX_FaceplateTool_1.0.1.1:When selecting the split type for Cardstock Customization, it actually does not display as split
